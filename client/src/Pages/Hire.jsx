@@ -55,7 +55,7 @@ function Achivements() {
         title="Hire Me"
         description="Passionate developer ready to bring ideas to life."
         stats={[
-          { label: "Experience", value: "2+ yrs" },
+          { label: "Experience", value: "4+ Months" },
           { label: "Projects", value: "4" },
           { label: "Tech Stack", value: "15+" },
         ]}
