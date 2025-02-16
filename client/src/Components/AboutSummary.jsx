@@ -7,22 +7,27 @@ function SkillTag({ skill }) {
 function AboutSummary() {
   const skills = [
     "React.js",
-    "Recoil",
-    "HTML",
-    "CSS",
+    "Redux",
     "Tailwind CSS",
     "JavaScript",
     "TypeScript",
     "Node.js",
+    "Rest APIs",
+    "Passport",
     "Next.js",
-    "Nest.js",
     "MongoDB",
-    "PostgreSQL",
-    "Prisma ORM",
+    "AWS",
+    "SQL",
     "C++",
     "WebSockets",
     "WebRTC",
     "OAuth",
+    "Facebook OAuth",
+    "Insta OAuth",
+    "Linkedin OAuth",
+    "Google/Email OAuth",
+    "Hosting",
+    "Gemini , OpenAi Apis"
   ]
 
   const projects = [
