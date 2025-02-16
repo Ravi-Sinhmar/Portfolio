@@ -18,7 +18,7 @@ function Achivements() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Submitted:", formData);
-    fetch('http://localhost:5000/mail', {
+    fetch('https://portfolio-ravi-sinhmar.onrender.com/mail', {
       method: "POST",
       headers: {
         'Content-Type': "application/json"
