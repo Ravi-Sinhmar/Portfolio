@@ -33,7 +33,8 @@ function AboutSummary() {
   ]
 
   const achievements = [
-    { title: "3rd Rank", description: "Business Plan Competition, VIT AP", prize: "₹25,000" },
+    { title: "3rd Rank", description: "Business Plan Competition, VIT-AP University University, Andhra Pradesh"
+, prize: "₹25,000" },
     { title: "3rd Rank", description: "Hackathon, CGC Landran", prize: "₹20,000" },
   ]
 
