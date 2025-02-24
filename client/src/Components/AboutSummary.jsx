@@ -45,7 +45,7 @@ function AboutSummary() {
 
   return (
     <header className="bg-gray-100 py-6 px-4 rounded-2xl">
-      <div className="max-w-4xl mx-auto">
+      <div className="lg:px-14 sm:px-4 px-2 mx-auto">
         <div className="flex flex-col md:flex-row gap-4">
           {/* Left Column - Personal Info */}
           <div className="md:w-1/3">

@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       {/* Header is inside Router so navigation links work */}
-      <div className="xl:px-40 lg:px-32 md:px-24 px-3 sm:px-8 md:pt-10 pt-6">
+      <div className="xl:px-40 lg:px-32 md:px-24 px-2 sm:px-8 md:pt-10 pt-6">
       <Navigation  />
         <Routes>
           <Route path="/" element={<About />} />
