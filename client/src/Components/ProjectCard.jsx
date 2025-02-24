@@ -13,14 +13,13 @@ export default function ProjectCard({
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
       <div className="p-6">
-        <div className="flex items-center mb-4">
+        <div className="flex items-center mb-2">
           <img className="h-16 w-16 rounded-md mr-4 object-cover" src={imageSrc || "/placeholder.svg"} alt={title} />
-          <h3 className="text-2xl font-bold text-indigo-600">{title}</h3>
+          <h3 className="text-2xl font-bold">{title}</h3>
         </div>
-
-        <p className="text-gray-600 mb-4">{description}</p>
-
-        <div className="mb-4">
+        <p className="text-black  text-xl font-medium mb-2">{description}</p>
+        <div className="h-0.5 w-full bg-gray-400 rounded-full mb-4" />
+        <div className="mb-4 ">
           <h4 className="text-lg font-semibold text-gray-800 mb-2">Features</h4>
           <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
             {features.map((feature, index) => (

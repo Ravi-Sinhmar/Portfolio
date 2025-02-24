@@ -7,7 +7,7 @@ function SkillTag({ skill }) {
 function AboutSummary() {
   const skills = [
     "React.js",
-    "Redux",
+    "Recoil",
     "Tailwind CSS",
     "JavaScript",
     "TypeScript",
@@ -56,7 +56,7 @@ function AboutSummary() {
             />
             <h1 className="text-xl font-bold text-gray-900">Ravi Sinhmar</h1>
             <h2 className="text-sm text-gray-600 mb-1">Software Developer</h2>
-            <p className="text-xs text-gray-600 mb-2">Intern at Viseatech Pvt. Ltd.</p>
+            <p className="text-xs text-gray-600 mb-2">Intern at Ruhil Future Technologies</p>
 
             {/* Achievements */}
             <div className="mb-2">

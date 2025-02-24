@@ -23,20 +23,20 @@ function Home() {
 
             <div id="right" className="px-6">
               <div className="">
-                <span className="text-lg text-gray-900">Software Engineer</span>
+                <span className="text-lg text-gray-900">SDE (Intern)</span>
                 <span className="px-3 ml-1 py-1  text-sm text-gray-500 rounded-md">
-                  Oct-2024 - PRESENT
+                  Mar-2025 - PRESENT
                 </span>
                 <br />
-                <span className="text-sm text-gray-500">@Viseatech Pvt Ltd, Bhiwani</span>
+                <span className="text-sm text-gray-500">@Ruhil Future Technologies, Jhajjar</span>
               </div>
               <div className="pt-6">
-                <span className="text-lg text-gray-900">Software Trainee</span>
+                <span className="text-lg text-gray-900">Full Stack Developer (Intern)</span>
                 <span className="px-3 ml-1 py-1  text-sm text-gray-500 rounded-md">
-                  Mar-2022 - May-2022
+                  Nov-2024 - Mar-2025
                 </span>
                 <br />
-                <span className="text-sm text-gray-500">@DG-Technicals</span>
+                <span className="text-sm text-gray-500">@Viseatech, Bhiwani</span>
               </div>
             
 

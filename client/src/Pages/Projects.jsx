@@ -6,8 +6,8 @@ function Projects() {
   const projects = [
     {
       title: "BuddyUp",
-      description: "A social networking application with real-time features.",
-      imageSrc: "./img/Buddy.png",
+      description: "A social networking application with real-time chat feature.",
+      imageSrc: "img/BuddyUp.png",
       features: [
         "User account creation and authentication",
         "Profile viewing and editing",
@@ -21,7 +21,26 @@ function Projects() {
       techStack: ["HTML", "Tailwind CSS", "JavaScript", "EJS", "Node.js", "Express.js", "Websockets", "MongoDB"],
       githubLink: "#", // Replace with actual GitHub link
       liveLink: "#", // Replace with actual live demo link
-      screenshots: 16, // Assuming you have 16 screenshots for this project
+      screenshots: 15, // Assuming you have 16 screenshots for this project
+    },
+
+    {
+      title: "FaceSync",
+      description: "Real time video Call Application",
+      imageSrc: "./img/FaceSync.png",
+      features: [
+        "Enter name , Generate Link",
+        "Choose Mic, Camera, Speaker Settings",
+        "Copy Link in clipboard",
+        "Another user can join through the  link",
+        "Video on/off , Mic on/off, Speaker on/off",
+        "Disconnect Call",
+        "Full Controll on both side",
+      ],
+      techStack: ["React.js", "Tailwind CSS", "WebSockets", "WebRtc (Video Communication )", "Node.js", "Express.js","MongoDB"],
+      githubLink: "#", // Replace with actual GitHub link
+      liveLink: "#", // Replace with actual live demo link
+      screenshots: 7, // Assuming you have 16 screenshots for this project
     },
     
     // Add more projects here...
@@ -44,7 +63,7 @@ function Projects() {
         <div className="bg-gray-100 rounded-xl min-h-screen py-6 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">My Projects</h2>
-        <div className="">
+        <div className="space-y-5">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
