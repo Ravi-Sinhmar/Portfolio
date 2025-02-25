@@ -19,8 +19,8 @@ function Projects() {
         "Account deletion",
       ],
       techStack: ["HTML", "Tailwind CSS", "JavaScript", "EJS", "Node.js", "Express.js", "Websockets", "MongoDB"],
-      githubLink: "#", // Replace with actual GitHub link
-      liveLink: "#", // Replace with actual live demo link
+      githubLink: "https://github.com/Ravi-Sinhmar/BuddyUp", // Replace with actual GitHub link
+      liveLink: "https://msg-io.onrender.com", // Replace with actual live demo link
       screenshots: 15, // Assuming you have 16 screenshots for this project
     },
 
@@ -37,9 +37,9 @@ function Projects() {
         "Disconnect Call",
         "Full Controll on both side",
       ],
-      techStack: ["React.js", "Tailwind CSS", "WebSockets", "WebRtc (Video Communication )", "Node.js", "Express.js","MongoDB"],
-      githubLink: "#", // Replace with actual GitHub link
-      liveLink: "#", // Replace with actual live demo link
+      techStack: ["React.js","Recoil", "Tailwind CSS", "WebSockets", "WebRtc (Video Communication )", "Node.js", "Express.js","MongoDB"],
+      githubLink: "https://github.com/Ravi-Sinhmar/Video-Call-Application", // Replace with actual GitHub link
+      liveLink: "https://video-call-application-mauve.vercel.app", // Replace with actual live demo link
       screenshots: 7, // Assuming you have 16 screenshots for this project
     },
     
@@ -55,9 +55,9 @@ function Projects() {
         title="Projects"
         description="Explore my portfolio of innovative software solutions."
         stats={[
-          { label: "Total", value: "4" },
-          { label: "Technologies", value: "10+" },
-          { label: "Code Lines", value: "10k+" },
+          { label: "Total", value: "3" },
+          { label: "Technologies", value: "12+" },
+          { label: "Code Lines", value: "7k+" },
         ]}
       />
         <div className="bg-gray-100 rounded-xl min-h-screen py-6 px-4 sm:px-6 lg:px-8">

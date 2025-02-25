@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Components/AboutSummary";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navigation from "./Components/Navigation";
 import About from "./Pages/About";
@@ -7,6 +6,7 @@ import Achievements from "./Pages/Achievement";
 import Hire from "./Pages/Hire";
 import Projects from './Pages/Projects';
 import NotFound from "./Pages/NotFound";
+
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/hire" element={<Hire />} />
           <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
       </div>

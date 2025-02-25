@@ -69,7 +69,7 @@ function Achivements() {
         stats={[
           { label: "Hackathons", value: "2" },
           { label: "Prize Money", value: "₹45k" },
-          { label: "Competitions", value: "2" },
+          { label: "Competition", value: "1" },
         ]}
       />
                 <section className="bg-gray-100 rounded-xl min-h-screen py-6 px-4 sm:px-6 lg:px-8">

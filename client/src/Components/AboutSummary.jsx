@@ -1,24 +1,19 @@
 import { FaTwitter, FaGithub, FaLinkedin, FaTrophy, FaCode } from "react-icons/fa"
 
+
 function SkillTag({ skill }) {
   return <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded-md text-xs inline-block m-1">{skill}</span>
 }
 
 function AboutSummary() {
   const skills = [
-    "React.js",
-    "Recoil",
     "Tailwind CSS",
     "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "Rest APIs",
-    "Passport",
-    "Next.js",
+    "React.js",
+    "Recoil",
     "MongoDB",
-    "AWS",
-    "SQL",
-    "C++",
+    "Node.js",
+    "AWS ( EC2 , S3 )",
     "WebSockets",
     "WebRTC",
     "OAuth",
@@ -27,20 +22,27 @@ function AboutSummary() {
     "Linkedin OAuth",
     "Google/Email OAuth",
     "Hosting",
-    "Gemini , OpenAi Apis"
+    "Gemini , OpenAi Apis",
+    "TypeScript",
+    "Rest APIs",
+    "Passport",
+    "SQL",
+    "C++",
+    "DSA"
   ]
 
   const projects = [
     { name: "BuddyUp", description: "Social Networking Site" },
-    { name: "Live Face", description: "Video Call Site" },
-    { name: "Social & Leads", description: "Social Media Automation" },
-    { name: "YouTube Clone", description: "Video Upload & Interaction" },
+    { name: "FaceSync", description: "Video Call Site" },
+    { name: "Social & Leads (Working)", description: "Social Media Automation" },
+
   ]
 
   const achievements = [
-    { title: "3rd Rank", description: "Business Plan Competition, VIT-AP University University, Andhra Pradesh"
+    { title: "3rd Rank", description: "Hackathon, VIT-AP University, Andhra Pradesh"
 , prize: "₹25,000" },
     { title: "3rd Rank", description: "Hackathon, CGC Landran", prize: "₹20,000" },
+    { title: "1st Rank", description: "Idea Competition, GJUS&T Hisar" },
   ]
 
   return (
@@ -74,14 +76,7 @@ function AboutSummary() {
 
             {/* Social Links */}
             <div className="flex gap-2">
-              <a
-                href="https://x.com/BloodyFounder"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-indigo-600 transition-colors"
-              >
-                <FaTwitter size={18} />
-              </a>
+
               <a
                 href="https://github.com/Ravi-Sinhmar"
                 target="_blank"
