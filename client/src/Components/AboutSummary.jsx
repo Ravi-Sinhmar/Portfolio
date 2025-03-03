@@ -1,4 +1,5 @@
-import { FaTwitter, FaGithub, FaLinkedin, FaTrophy, FaCode } from "react-icons/fa"
+import { FaTwitter, FaGithub, FaLinkedin, FaTrophy, FaCode,FaExternalLinkAlt } from "react-icons/fa"
+
 
 
 function SkillTag({ skill }) {
@@ -25,6 +26,7 @@ function AboutSummary() {
     "Gemini , OpenAi Apis",
     "TypeScript",
     "Rest APIs",
+    "JWT",
     "Passport",
     "SQL",
     "C++",
@@ -32,9 +34,9 @@ function AboutSummary() {
   ]
 
   const projects = [
-    { name: "BuddyUp", description: "Social Networking Site" },
-    { name: "FaceSync", description: "Video Call Site" },
-    { name: "Social & Leads (Working)", description: "Social Media Automation" },
+    { name: "BuddyUp", description: "Social Networking and Chat Application" , link : "https://msg-io.onrender.com", github :"https://github.com/Ravi-Sinhmar/BuddyUp" },
+    { name: "FaceSync", description: "Video Call Site",link :"https://video-call-application-mauve.vercel.app" ,  github : "https://github.com/Ravi-Sinhmar/Video-Call-Application"},
+    { name: "EmailPro", description: "AI Powered Email Manager, Writer, Sender",link : "https://email-pro-ai-powered.vercel.app", github : "https://github.com/Ravi-Sinhmar/EmailPro" },
 
   ]
 
@@ -69,7 +71,8 @@ function AboutSummary() {
                 <div key={index} className="text-xs mb-1">
                   <span className="font-medium">{achievement.title}</span> - {achievement.description}
                   <br />
-                  <span className="text-indigo-600">Prize: {achievement.prize}</span>
+                  {achievement.prize && <span className="text-indigo-600">Prize: {achievement.prize}</span> }
+                 
                 </div>
               ))}
             </div>
@@ -117,9 +120,16 @@ function AboutSummary() {
               </h3>
               <div className="grid grid-cols-2 gap-2">
                 {projects.map((project, index) => (
-                  <div key={index} className="bg-gray-100 p-2 rounded-md">
-                    <h4 className="text-xs font-medium text-indigo-600">{project.name}</h4>
-                    <p className="text-xs text-gray-600">{project.description}</p>
+                  <div key={index} className="bg-gray-100 p-2 rounded-md  flex justify-between items-center">
+                   <div>
+                   <h4 className="text-xs font-medium text-indigo-600">{project.name}</h4>
+                   <p className="text-xs text-gray-600">{project.description}</p>
+                   </div>
+                  <div className="flex justify-center gap-2 items-center">
+                  <a href={project.link}><FaExternalLinkAlt className="text-indigo-500 hover:text-xl"/></a>
+                  <a href={project.github}><FaGithub className="text-indigo-500 hover:text-xl"/></a>
+                  </div>
+                   
                   </div>
                 ))}
               </div>

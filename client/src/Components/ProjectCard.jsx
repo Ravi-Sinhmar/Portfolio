@@ -14,7 +14,6 @@ export default function ProjectCard({
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
       <div className="p-6">
         <div className="flex items-center mb-2">
-          <img className="h-16 w-16 rounded-md mr-4 object-cover" src={imageSrc || "/placeholder.svg"} alt={title} />
           <h3 className="text-2xl font-bold">{title}</h3>
         </div>
         <p className="text-black  text-xl font-medium mb-2">{description}</p>
