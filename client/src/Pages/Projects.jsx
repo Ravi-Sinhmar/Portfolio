@@ -42,6 +42,24 @@ function Projects() {
       liveLink: "https://video-call-application-mauve.vercel.app", // Replace with actual live demo link
       screenshots: 7, // Assuming you have 16 screenshots for this project
     },
+    {
+      title: "EmailPro",
+      description: "AI Powered Email Manager, Writer, Sender",
+      imageSrc: "./img/EmailPro.png",
+      features: [
+        "Login with google, Send Bulk/Single Email",
+        "Write/Edit Email with Ai, Can add Job Description for Ai",
+        "Enhance email with Ai",
+        "Replied/Not Replied Filtration",
+        "Send Bulk Emails with single click",
+        "Attach Resume",
+        "Logout , Delete Account",
+      ],
+      techStack: ["React.js","Recoil", "Tailwind CSS", "OAuth", "Node.js", "Express.js","MongoDB","JWT"],
+      githubLink: "https://github.com/Ravi-Sinhmar/EmailPro", // Replace with actual GitHub link
+      liveLink: "https://email-pro-ai-powered.vercel.app", // Replace with actual live demo link
+      screenshots: 19, // Assuming you have 16 screenshots for this project
+    }
     
     // Add more projects here...
   ]
