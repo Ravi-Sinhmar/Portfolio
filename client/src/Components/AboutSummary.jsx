@@ -63,9 +63,9 @@ function AboutSummary() {
               src="/img/profile.jpg"
               alt="Ravi Sinhmar"
             />
-            <h1 className="text-xl font-bold text-gray-900">Ravi Sinhmar</h1>
-            <h2 className="text-sm text-gray-600 mb-1">Ex - Software Developer</h2>
-            <p className="text-xs text-gray-600 mb-2">@Lucres, Bengaluru</p>
+            <h1 className="text-xl font-bold text-gray-900">Ravi Sinhmar (1 Year +)</h1>
+            <h2 className="text-sm text-gray-600 mb-1">Software Developer</h2>
+            <p className="text-xs text-gray-600 mb-2">Ex - @Lucres, Bengaluru</p>
 
             {/* Achievements */}
             <div className="mb-2">
