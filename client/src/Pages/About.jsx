@@ -22,10 +22,18 @@ function Home() {
             </div>
 
             <div id="right" className="px-6">
-              <div className="">
-                <span className="text-lg text-gray-900">SDE (Intern)</span>
+                <div className="">
+                <span className="text-lg text-gray-900">Software Developer</span>
                 <span className="px-3 ml-1 py-1  text-sm text-gray-500 rounded-md">
-                  Mar-2025 - PRESENT
+                  May-2025 - Nov-2025
+                </span>
+                <br />
+                <span className="text-sm text-gray-500">@Lucres, Bengaluru</span>
+              </div>
+              <div className="">
+                <span className="text-lg text-gray-900">Software Developer</span>
+                <span className="px-3 ml-1 py-1  text-sm text-gray-500 rounded-md">
+                  Mar-2025 - May-2025
                 </span>
                 <br />
                 <span className="text-sm text-gray-500">@Ruhil Future Technologies, Jhajjar</span>
