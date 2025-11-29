@@ -64,8 +64,8 @@ function AboutSummary() {
               alt="Ravi Sinhmar"
             />
             <h1 className="text-xl font-bold text-gray-900">Ravi Sinhmar</h1>
-            <h2 className="text-sm text-gray-600 mb-1">Software Developer</h2>
-            <p className="text-xs text-gray-600 mb-2">Intern at Ruhil Future Technologies</p>
+            <h2 className="text-sm text-gray-600 mb-1">Ex - Software Developer</h2>
+            <p className="text-xs text-gray-600 mb-2">@Lucres, Bengaluru</p>
 
             {/* Achievements */}
             <div className="mb-2">

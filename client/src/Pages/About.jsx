@@ -19,6 +19,8 @@ function Home() {
               <div className="relative left-1 z-0 ms-[1px] h-16 w-0 border"></div>
               <div className="z-10 w-3 h-3 bg-gray-500 rounded-full"></div>
               <div className="relative left-1 z-0 ms-[1px] h-8 w-0 border"></div>
+               <div className="z-10 w-3 h-3 bg-gray-500 rounded-full"></div>
+              <div className="relative left-1 z-0 ms-[1px] h-8 w-0 border"></div>
             </div>
 
             <div id="right" className="px-6">
@@ -30,7 +32,7 @@ function Home() {
                 <br />
                 <span className="text-sm text-gray-500">@Lucres, Bengaluru</span>
               </div>
-              <div className="">
+              <div className="pt-6">
                 <span className="text-lg text-gray-900">Software Developer</span>
                 <span className="px-3 ml-1 py-1  text-sm text-gray-500 rounded-md">
                   Mar-2025 - May-2025
