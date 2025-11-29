@@ -18,7 +18,7 @@ function Home() {
               <div className="z-10 w-3 h-3 bg-gray-700 rounded-full"></div>
               <div className="relative left-1 z-0 ms-[1px] h-16 w-0 border"></div>
               <div className="z-10 w-3 h-3 bg-gray-500 rounded-full"></div>
-              <div className="relative left-1 z-0 ms-[1px] h-8 w-0 border"></div>
+              <div className="relative left-1 z-0 ms-[1px] h-16 w-0 border"></div>
                <div className="z-10 w-3 h-3 bg-gray-500 rounded-full"></div>
               <div className="relative left-1 z-0 ms-[1px] h-8 w-0 border"></div>
             </div>
